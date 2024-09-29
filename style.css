@@ -1,0 +1,27 @@
+/* Style for the copy button */
+.copy-markdown-button {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 5px 10px;
+    background-color: #10a37f;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Adjust spacing as needed */
+}
+
+.copy-markdown-button:hover {
+    background-color: #0e8c6a;
+}
+
+/* Style for the confirmation message */
+.copy-confirmation {
+    /* Styles are primarily handled inline in content.js */
+    /* Additional styles can be added here if needed */
+    font-size: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}

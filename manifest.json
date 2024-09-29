@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Markdown Copier",
+    "version": "1.0",
+    "description": "Adds a copy button next to each ChatGPT output to copy ChatGPT output in Markdown.",
+    "permissions": ["clipboardWrite", "scripting"],
+    "content_scripts": [
+        {
+        "matches": ["https://chat.openai.com/*"],
+        "js": ["content.js"],
+        "css": ["style.css"]
+        }
+    ]
+}
