@@ -28,7 +28,7 @@ This project adds a Copy Markdown button to conversation turns in ChatGPT-like o
 - Clone or download the repository.
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/yourusername/chatgpt-copy.git
 ```
 
 - Include the script in your HTML file or application where you have assistant-like outputs (e.g., in a ChatGPT-like web app).
