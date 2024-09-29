@@ -6,9 +6,13 @@
     "permissions": ["clipboardWrite", "scripting"],
     "content_scripts": [
         {
-        "matches": ["https://chat.openai.com/*"],
+        "matches": ["https://chatgpt.com*"],
         "js": ["content.js"],
         "css": ["style.css"]
         }
-    ]
+    ],
+    "icons": {
+        "48": "icon48.png",
+        "96": "icon96.png"
+    }
 }
